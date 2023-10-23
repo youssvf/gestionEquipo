@@ -34,7 +34,7 @@ public class JugadoresRepositorySQL implements JugadoresRepository {
         } catch (SQLException e) {
             System.err.println(e);
         }
-//
+
         return jugadores;
     }
 
